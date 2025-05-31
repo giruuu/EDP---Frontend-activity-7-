@@ -1,0 +1,11 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="StudentProfileAvaloniaApp.MainWindow"
+        Title="Student Profile App" Width="400" Height="300">
+  <StackPanel Margin="20">
+    <TextBlock Text="Welcome to Student Profile System!" Margin="0 0 0 10"/>
+    <Button Content="Login" Margin="0 5"/>
+    <Button Content="Manage Users" Margin="0 5"/>
+    <Button Content="Generate Report" Margin="0 5"/>
+  </StackPanel>
+</Window>
